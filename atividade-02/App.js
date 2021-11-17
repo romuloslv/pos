@@ -16,6 +16,7 @@ export default function App() {
         <Stack.Screen name="Login" component={Login}/>
         <Stack.Screen name="Create_Contact" component={Create_Contact}/>
         <Stack.Screen name="List_Contact" component={List_Contact}/>
+        <Stack.Screen name="Update_Contact" component={Update_Contact}/>
         <Stack.Screen name="Create_User" component={Create_User}/>
       </Stack.Navigator>
     </NavigationContainer>
